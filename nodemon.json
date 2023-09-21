@@ -1,0 +1,12 @@
+{
+    "restractable":"rs",
+    "ignore": ["node_modules/"],
+    "watch":["src/"],
+    "execMap": {
+        "ts": "node -r ts-node/register"
+    },
+    "ext": "js,json,ts",
+    "env": {
+        "node_ENV": "development"
+    }
+}
